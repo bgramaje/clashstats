@@ -43,20 +43,6 @@ export function Sidebar({ className }: any) {
               />
             </Button>
           </Link>
-          <Link href="/clans">
-            <Button variant="secondary" className="w-full justify-start">
-              <Image
-                alt="home-icon"
-                src="/clan-badge.png"
-                width={32}
-                height={32}
-                style={{
-                  color: 'white',
-                  outline: 'white',
-                }}
-              />
-            </Button>
-          </Link>
           <Link href="/leadership">
             <Button variant="secondary" className="w-full justify-center">
               <Image
