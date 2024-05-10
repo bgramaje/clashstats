@@ -57,9 +57,15 @@ export function Sidebar({ className }: any) {
               />
             </Button>
           </Link>
-          <Link href="/players">
-            <Button variant="secondary" className="w-full justify-start">
+          <Link href="/leadership">
+            <Button variant="secondary" className="w-full justify-center">
               <Image
+                alt="leadership-icon"
+                src="https://static.wikia.nocookie.net/clashofclans/images/c/cd/Trophy.png/revision/latest?cb=20171031024226"
+                width={19}
+                height={19}
+              />
+              {/* <Image
                 alt="players-icon"
                 src="https://static.wikia.nocookie.net/clashofclans/images/a/aa/Clan_Label_Trophy_Pushing.png/revision/latest?cb=20230124084251"
                 width={22}
@@ -68,7 +74,7 @@ export function Sidebar({ className }: any) {
                   color: 'white',
                   outline: 'white',
                 }}
-              />
+              /> */}
             </Button>
           </Link>
         </div>

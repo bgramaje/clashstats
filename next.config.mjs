@@ -21,6 +21,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'support.supercell.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'clashspot.net',
+      },
     ],
   },
   async headers() {

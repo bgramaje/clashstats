@@ -66,7 +66,7 @@ export function DataTable<TData, TValue>({
 
   return (
     <>
-      <div className="flex items-center py-4">
+      <div className="flex items-center py-2">
         {title}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>

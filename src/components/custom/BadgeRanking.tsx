@@ -8,9 +8,9 @@ import { BuilderBaseClanRanking } from '@/types/rankings/BuilderBaseClanRanking'
 import { CapitalClanRanking } from '@/types/rankings/CapitalClanRanking';
 
 type EntityProps = BuilderBasePlayerRanking
-  | TownHallPlayerRanking
-  | TownHallClanRanking
-  | BuilderBaseClanRanking
+  | TownHallPlayerRankig
+  | TownHallClanRankig
+  | BuilderBaseClanRankig
   | CapitalClanRanking;
 
 type BadgeRankingProps = {
